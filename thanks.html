@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BBTG9NCBB6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-BBTG9NCBB6');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <meta name="description"
+        content="Parallel, Front end, UI/UX Designer, Logo design, digital agency, digital studio, back end development, website making">
+    <meta name="keywords"
+        content="Front end, Front end, htmls, css, experience, html5, css3, js, javascript, web development,React, beck end development Deorge Dion, responsive, creative, concept, startup, custom, desktop, web development">
+    <meta name="author" content="George Dion">
+    <meta property="og:image" content="imgs/meta-img.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="load-more-button.js"></script>
+
+    <title> &nbsp; Parallel</title>
+    <link rel="icon" href="imgs/logo-icon.ico" id="title-icon">
+</head>
+
+<body>
+
+    <header id="header">
+        <a class="cursor-scale small" href="index.html">
+            <img src="imgs/logo-white.svg" alt="Parallel">
+        </a>
+    </header>
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+
+    <div class="thanks" data-aos="flip-up">
+        <div class="thanks-txt">
+            <a href="index.html" class="cursor-scale small">
+                <div class="thanks-go-back">
+                    <img src="imgs/parallel-arrow.svg" alt="Arrow">
+                    <p>Go Back</p>
+                </div>
+            </a>
+            <h1>Thank you for getting in touch!
+            </h1>
+            <p>We appreciate you contacting parallel. One of our colleagues will get back in touch with you soon! Have a
+                great day!
+            </p>
+        </div>
+        <img src="imgs/Contact us-rafiki.svg" alt="Contact" class="thanks-img">
+    </div>
+
+
+    <script>
+        AOS.init();
+    </script>
+
+
+    <script>
+        var a = document.getElementById("title-icon");
+
+        if (window.matchMedia &&
+            window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            a.href = "imgs/logo-icon.ico";
+
+        }
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+    <script src="cursor.js"></script>
+
+
+</body>
+
+</html>

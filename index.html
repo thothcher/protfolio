@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="w60mDoIa6PZkz91HpsJgG-KWL5trdsQDr-oVKTwnrf8" />
+
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <meta name="description" content="Front end developer, UI/UX Designer, Giorgi Vakhtangishvili, website making">
+    <meta name="keywords"
+        content="Front end, Front end, htmls, css, experience, html5, css3, js, javascript, web development,React,Angular, responsive, creative, concept, startup, custom, desktop, web development">
+    <meta name="author" content="Giorgi Vakhtangishvili">
+    <meta property="og:image" content="imgs/meta-img.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <!-- slick slider -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title> &nbsp; Portfolio</title>
+    <link rel="icon" href="imgs/logo-icon.ico" id="title-icon">
+</head>
+
+<body>
+
+
+
+    <!------------- back-to-top-button ------------->
+
+
+    <button class="back-to-top cursor-scale small hidden">
+        <svg width="64" height="64" viewBox="0 0 64 64" class="back-to-top-icon" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M48.0662 38.6001C48.644 39.489 48.6769 40.3894 48.1649 41.3014C47.6547 42.2116 46.8662 42.6667 45.7996 42.6667H18.1996C17.1329 42.6667 16.3436 42.2116 15.8316 41.3014C15.3213 40.3894 15.3551 39.489 15.9329 38.6001L29.7329 16.8667C30.2662 16.0667 31.0218 15.6667 31.9996 15.6667C32.9773 15.6667 33.7329 16.0667 34.2662 16.8667L48.0662 38.6001Z"
+                fill="white" />
+        </svg>
+    </button>
+
+    <!------------- overlay ---------------->
+    <div id="overlay" class="overlay">
+
+        <div class="loading-logo">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!------------- header ---------------->
+    <header id="header">
+
+        <!------------------- switch night shift ----------------->
+        <label id="theme-toggle-button">
+            <input type="checkbox" id="toggle" checked onclick="toggleTheme()">
+            <svg viewBox="0 0 69.667 44" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                <g transform="translate(3.5 3.5)" data-name="Component 15 – 1" id="Component_15_1">
+
+                    <g filter="url(#container)" transform="matrix(1, 0, 0, 1, -3.5, -3.5)">
+                        <rect fill="#2d81ff" transform="translate(3.5 3.5)" rx="17.5" height="35" width="60.667"
+                            data-name="container" id="container"></rect>
+                    </g>
+                    <g transform="translate(2.333 2.333)" id="button">
+
+                        <g data-name="sun" id="sun">
+                            <g filter="url(#sun-outer)" transform="matrix(1, 0, 0, 1, -5.83, -5.83)">
+                                <circle fill="#f8e664" transform="translate(5.83 5.83)" r="15.167" cy="15.167"
+                                    cx="15.167" data-name="sun-outer" id="sun-outer-2"></circle>
+                            </g>
+                            <g filter="url(#sun)" transform="matrix(1, 0, 0, 1, -5.83, -5.83)">
+                                <path fill="rgba(246,254,247,0.29)" transform="translate(9.33 9.33)"
+                                    d="M11.667,0A11.667,11.667,0,1,1,0,11.667,11.667,11.667,0,0,1,11.667,0Z"
+                                    data-name="sun" id="sun-3"></path>
+                            </g>
+                            <circle fill="#fcf4b9" transform="translate(8.167 8.167)" r="7" cy="7" cx="7"
+                                id="sun-inner"></circle>
+                        </g>
+
+                        <g data-name="moon" id="moon">
+                            <g filter="url(#moon)" transform="matrix(1, 0, 0, 1, -31.5, -5.83)">
+                                <circle fill="#cce6ee" transform="translate(31.5 5.83)" r="15.167" cy="15.167"
+                                    cx="15.167" data-name="moon" id="moon-3"></circle>
+                            </g>
+                            <g fill="#a6cad0" transform="translate(-24.415 -1.009)" id="patches">
+                                <circle transform="translate(43.009 4.496)" r="2" cy="2" cx="2"></circle>
+                                <circle transform="translate(39.366 17.952)" r="2" cy="2" cx="2" data-name="patch">
+                                </circle>
+                                <circle transform="translate(33.016 8.044)" r="1" cy="1" cx="1" data-name="patch">
+                                </circle>
+                                <circle transform="translate(51.081 18.888)" r="1" cy="1" cx="1" data-name="patch">
+                                </circle>
+                                <circle transform="translate(33.016 22.503)" r="1" cy="1" cx="1" data-name="patch">
+                                </circle>
+                                <circle transform="translate(50.081 10.53)" r="1.5" cy="1.5" cx="1.5" data-name="patch">
+                                </circle>
+                            </g>
+                        </g>
+                    </g>
+
+                    <g filter="url(#cloud)" transform="matrix(1, 0, 0, 1, -3.5, -3.5)">
+                        <path fill="#fff" transform="translate(-3466.47 -160.94)"
+                            d="M3512.81,173.815a4.463,4.463,0,0,1,2.243.62.95.95,0,0,1,.72-1.281,4.852,4.852,0,0,1,2.623.519c.034.02-.5-1.968.281-2.716a2.117,2.117,0,0,1,2.829-.274,1.821,1.821,0,0,1,.854,1.858c.063.037,2.594-.049,3.285,1.273s-.865,2.544-.807,2.626a12.192,12.192,0,0,1,2.278.892c.553.448,1.106,1.992-1.62,2.927a7.742,7.742,0,0,1-3.762-.3c-1.28-.49-1.181-2.65-1.137-2.624s-1.417,2.2-2.623,2.2a4.172,4.172,0,0,1-2.394-1.206,3.825,3.825,0,0,1-2.771.774c-3.429-.46-2.333-3.267-2.2-3.55A3.721,3.721,0,0,1,3512.81,173.815Z"
+                            data-name="cloud" id="cloud"></path>
+                    </g>
+
+                    <g fill="#def8ff" transform="translate(3.585 1.325)" id="stars">
+                        <path transform="matrix(-1, 0.017, -0.017, -1, 24.231, 3.055)"
+                            d="M.774,0,.566.559,0,.539.458.933.25,1.492l.485-.361.458.394L1.024.953,1.509.592.943.572Z">
+                        </path>
+                        <path transform="matrix(-0.777, 0.629, -0.629, -0.777, 23.185, 12.358)"
+                            d="M1.341.529.836.472.736,0,.505.46,0,.4.4.729l-.231.46L.605.932l.4.326L.9.786Z"
+                            data-name="star"></path>
+                        <path transform="matrix(0.438, 0.899, -0.899, 0.438, 23.177, 29.735)"
+                            d="M.015,1.065.475.9l.285.365L.766.772l.46-.164L.745.494.751,0,.481.407,0,.293.285.658Z"
+                            data-name="star"></path>
+                        <path transform="translate(12.677 0.388) rotate(104)"
+                            d="M1.161,1.6,1.059,1,1.574.722.962.607.86,0,.613.572,0,.457.446.881.2,1.454l.516-.274Z"
+                            data-name="star"></path>
+                        <path transform="matrix(-0.07, 0.998, -0.998, -0.07, 11.066, 15.457)"
+                            d="M.873,1.648l.114-.62L1.579.945,1.03.62,1.144,0,.706.464.157.139.438.7,0,1.167l.592-.083Z"
+                            data-name="star"></path>
+                        <path transform="translate(8.326 28.061) rotate(11)"
+                            d="M.593,0,.638.724,0,.982l.7.211.045.724.36-.64.7.211L1.342.935,1.7.294,1.063.552Z"
+                            data-name="star"></path>
+                        <path transform="translate(5.012 5.962) rotate(172)"
+                            d="M.816,0,.5.455,0,.311.323.767l-.312.455.516-.215.323.456L.827.911,1.343.7.839.552Z"
+                            data-name="star"></path>
+                        <path transform="translate(2.218 14.616) rotate(169)"
+                            d="M1.261,0,.774.571.114.3.487.967,0,1.538.728,1.32l.372.662.047-.749.728-.218L1.215.749Z"
+                            data-name="star"></path>
+                    </g>
+                </g>
+            </svg>
+        </label>
+    </header>
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+    <div class="page-title ">
+
+        <span>
+            <h1> <span class="decoration">Giorgi </span><span class="decoration"> Vakhtangishvili </span><br>
+            </h1>
+            <h2>Programmig lecturer, front end developer, AI Enthusiast</h2>
+        </span>
+        <p class="p-grey-18">
+            Ai tools, Angular 19, JS, TS, Rest API, Sass, Jquery, Php, mySql, Shopify, Wordpress, Webflow, exp. in
+            react, Figma
+        </p>
+    </div>
+
+    <!-------------------------------- students works -------------------------------->
+
+    <div class="work-divider">
+        <p class="p-grey-18">My students works 2024</p>
+    </div>
+    <div class="works-container list">
+
+        <div class="list-element item blogBox_student moreBox_student " data-aos="fade-up">
+            <div class="work ">
+                <a href="https://assasincreed.netlify.app/" class="cursor-scale small" target="_blank">
+                    <img src="https://imageslink.netlify.app/georgia.webp" alt="Website">
+                </a>
+
+                <div class="students-info">
+                    <div class="students-info_left">
+                        <p class="p-white-32">Assassin's creed</p>
+
+                        <div class="tools ">
+                            <img src="imgs/figma.png" alt="Figma">
+                            <img class="angular_icon" src="imgs/angular.png" alt="Angular">
+                        </div>
+                    </div>
+                    <div class="students-info_right">
+                        <p class="p-white-24">Georgi Dagargulia</p>
+                        <a href="#" target="_blank" class="cursor-scale small">
+                            <img src="imgs/line-md_linkedin.svg" alt="Linkedin">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list-element item blogBox_student moreBox_student " data-aos="fade-up" target="_blank">
+            <div class="work ">
+
+                <a href="https://railwaytickets.netlify.app/" class="cursor-scale small">
+                    <img src="https://imageslink.netlify.app/bara.webp" alt="Website">
+                </a>
+
+                <div class="students-info">
+                    <div class="students-info_left">
+                        <p class="p-white-32">Railway tickets</p>
+
+                        <div class="tools ">
+                            <img src="imgs/figma.png" alt="Figma">
+                            <img class="angular_icon" src="imgs/angular.png" alt="Angular">
+                        </div>
+                    </div>
+                    <div class="students-info_right">
+                        <p class="p-white-24">Nikoloz Baratashvili</p>
+                        <a href="#" target="_blank" class="cursor-scale small">
+                            <img src="imgs/line-md_linkedin.svg" alt="Linkedin">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="list-element item blogBox_student moreBox_student " data-aos="fade-up" target="_blank">
+            <div class="work ">
+
+                <a href="https://spectacular-treacle-1f6ec1.netlify.app/" class="cursor-scale small">
+                    <img src="https://imageslink.netlify.app/sakhva2.png" alt="Website">
+                </a>
+
+                <div class="students-info">
+                    <div class="students-info_left">
+                        <p class="p-white-32">Movies</p>
+
+                        <div class="tools ">
+                            <img src="imgs/figma.png" alt="Figma">
+                            <img class="angular_icon" src="imgs/angular.png" alt="Angular">
+                        </div>
+                    </div>
+                    <div class="students-info_right">
+                        <p class="p-white-24">Giorgi Sakhvadze</p>
+                        <a href="#" target="_blank" class="cursor-scale small">
+                            <img src="imgs/line-md_linkedin.svg" alt="Linkedin">
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list-element item blogBox_student moreBox_student " data-aos="fade-up">
+            <div class="work ">
+                <a href="https://fancy-custard-11c870.netlify.app/" target="_blank" class="cursor-scale small">
+                    <img src="https://imageslink.netlify.app/sakhva.png" alt="Website">
+                </a>
+                <div class="students-info">
+                    <div class="students-info_left">
+                        <p class="p-white-32">Clothes store</p>
+
+                        <div class="tools ">
+                            <img src="imgs/figma.png" alt="Figma">
+                            <img class="angular_icon" src="imgs/angular.png" alt="Angular">
+                        </div>
+                    </div>
+                    <div class="students-info_right">
+                        <p class="p-white-24">Giorgi Sakhvadze</p>
+                        <a href="#" target="_blank" class="cursor-scale small">
+                            <img src="imgs/line-md_linkedin.svg" alt="Linkedin">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="list-element item blogBox_student moreBox_student " data-aos="fade-up">
+            <div class="work">
+
+                <a href="https://resonant-maamoul-4ec63a.netlify.app/" target="_blank" class=" cursor-scale small">
+                    <img src="https://imageslink.netlify.app/lasha_didi.webp" alt="Website">
+
+                </a>
+
+                <div class="students-info">
+                    <div class="students-info_left">
+                        <p class="p-white-32">Restaurant</p>
+
+                        <div class="tools ">
+                            <img src="imgs/figma.png" alt="Figma">
+                            <img class="angular_icon" src="imgs/angular.png" alt="Angular">
+                        </div>
+                    </div>
+                    <div class="students-info_right">
+                        <p class="p-white-24">Lasha Vefkhvadze</p>
+                        <a href="#" target="_blank" class="cursor-scale small">
+                            <img src="imgs/line-md_linkedin.svg" alt="Linkedin">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="list-element item blogBox_student moreBox_student " data-aos="fade-up">
+            <div class="work ">
+
+                <a href="https://hotelstbilisi.netlify.app" class="cursor-scale small" target="_blank">
+                    <img src="https://imageslink.netlify.app/chola.webp" alt="Website">
+                </a>
+
+                <div class="students-info">
+                    <div class="students-info_left">
+                        <p class="p-white-32">Hotels Tbilisi</p>
+
+                        <div class="tools ">
+                            <img src="imgs/figma.png" alt="Figma">
+                            <img class="angular_icon" src="imgs/angular.png" alt="Angular">
+                        </div>
+                    </div>
+                    <div class="students-info_right">
+                        <p class="p-white-24">Giorgi Merabishvili</p>
+                        <a href="#" target="_blank" class="cursor-scale small">
+                            <img src="imgs/line-md_linkedin.svg" alt="Linkedin">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="list-element item blogBox_student moreBox_student " data-aos="fade-up">
+            <div class="work">
+                <a href="https://railway-ani.netlify.app/" class=" cursor-scale small">
+                    <img src="https://imageslink.netlify.app/ani.webp" alt="Website">
+                </a>
+                <div class="students-info">
+                    <div class="students-info_left">
+                        <p class="p-white-32">Railway Tickets</p>
+                        <div class="tools ">
+                            <img src="imgs/figma.png" alt="Figma">
+                            <img class="angular_icon" src="imgs/angular.png" alt="Angular">
+                        </div>
+                    </div>
+                    <div class="students-info_right">
+                        <p class="p-white-24">Ani Gigiashvili</p>
+                        <a href="#" target="_blank" class="cursor-scale small">
+                            <img src="imgs/line-md_linkedin.svg" alt="Linkedin">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list-element item blogBox_student moreBox_student " data-aos="fade-up">
+            <div class="work">
+                <a href="https://pinkmonkeychocolate.netlify.app/" target="_blank" class="cursor-scale small">
+                    <img src="https://imageslink.netlify.app/salo.png" alt="Website">
+                </a>
+                <div class="students-info">
+                    <div class="students-info_left">
+                        <p class="p-white-32">Pink Monkey</p>
+
+                        <div class="tools ">
+                            <img src="imgs/figma.png" alt="Figma">
+                            <img class="angular_icon" src="imgs/angular.png" alt="Angular">
+                        </div>
+                    </div>
+                    <div class="students-info_right">
+                        <p class="p-white-24">Salome Karseladze</p>
+                        <a href="#" target="_blank" class="cursor-scale small">
+                            <img src="imgs/line-md_linkedin.svg" alt="Linkedin">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list-element item blogBox_student moreBox_student " data-aos="fade-up" target="_blank">
+            <div class="work ">
+                <a href="https://lash05.netlify.app/" class="cursor-scale small" target="_blank">
+                    <img src="https://imageslink.netlify.app/lasha.webp" alt="Website">
+
+                </a>
+                <div class="students-info">
+                    <div class="students-info_left">
+                        <p class="p-white-32">Restaurant</p>
+
+                        <div class="tools ">
+                            <img src="imgs/figma.png" alt="Figma">
+                            <img class="angular_icon" src="imgs/angular.png" alt="Angular">
+                        </div>
+                    </div>
+                    <div class="students-info_right">
+                        <p class="p-white-24">Lasha Robakidze</p>
+                        <a href="#" target="_blank" class="cursor-scale small">
+                            <img src="imgs/line-md_linkedin.svg" alt="Linkedin">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <button class="load-more-btn cursor-scale small" data-aos="zoom-in" id="loadMore_students">
+        <div class="button-box">
+            <span class="button-elem">
+                <svg viewBox="0 0 46 40" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z">
+                    </path>
+                </svg>
+            </span>
+            <span class="button-elem">
+                <svg viewBox="0 0 46 40">
+                    <path
+                        d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z">
+                    </path>
+                </svg>
+            </span>
+        </div>
+    </button>
+
+
+
+
+
+    <!-------------------------------- my works -------------------------------->
+    <div class="work-divider">
+        <p class="p-grey-18">2022</p>
+    </div>
+
+    <div class="works-container list">
+
+        <a href="https://xchain.netlify.app/" class="list-element item blogBox moreBox " data-aos="fade-up"
+            target="_blank">
+            <div class="work cursor-scale small">
+                <img src="https://imageslink.netlify.app/xchain.webp" alt="Website">
+                <p class="p-white-32">Xchain AI</p>
+                <div class="tools ">
+                    <img src="imgs/figma.png" alt="Figma">
+                    <img src="imgs/html.png" alt="HTML">
+                    <img src="imgs/css.png" alt="CSS">
+                    <img src="imgs/js.png" alt="JS">
+                </div>
+            </div>
+        </a>
+
+        <a href="https://fmrc.info/" class="list-element item blogBox moreBox " data-aos="fade-up" target="_blank">
+            <div class="work cursor-scale small">
+                <img src="https://imageslink.netlify.app/project-10.png" alt="Website">
+                <p class="p-white-32">Family Medical Regional Center</p>
+                <div class="tools ">
+                    <img src="https://imageslink.netlify.app/php.png" alt="Php">
+                    <img src="imgs/figma.png" alt="Figma">
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.cenostudios.com/" class="list-element item blogBox moreBox" target="_blank"
+            data-aos="fade-up">
+            <div class="work cursor-scale small">
+                <img src="https://imageslink.netlify.app/ceno.webp" alt="Website">
+                <p class="p-white-32">Ceno Studios</p>
+                <div class="tools-l">
+                    <img src="imgs/webflow.svg" alt="Webflow">
+                </div>
+            </div>
+        </a>
+
+        <a href="https://sectionaaa.netlify.app/" class="list-element item blogBox moreBox" target="_blank"
+            data-aos="fade-up">
+            <div class="work cursor-scale small">
+                <img src="https://imageslink.netlify.app/section-banking.png" alt="Website">
+                <p class="p-white-32">Section A</p>
+                <div class="tools">
+                    <img src="imgs/figma.png" alt="Figma">
+                    <img src="imgs/html.png" alt="HTML">
+                    <img src="imgs/css.png" alt="CSS">
+                    <img src="imgs/js.png" alt="JS">
+                </div>
+            </div>
+        </a>
+        <a href="https://adriancontact.netlify.app" class="list-element item blogBox moreBox " data-aos="fade-up"
+            target="_blank">
+            <div class="work cursor-scale small">
+                <img src="https://imageslink.netlify.app/telecom.webp" alt="Website">
+                <p class="p-white-32">Telecom</p>
+                <div class="tools ">
+                    <img src="imgs/figma.png" alt="Figma">
+                    <img src="imgs/html.png" alt="HTML">
+                    <img src="imgs/css.png" alt="CSS">
+                    <img src="imgs/js.png" alt="JS">
+                </div>
+            </div>
+        </a>
+
+        <a href="https://pdffy.netlify.app/" class="list-element item blogBox moreBox" target="_blank"
+            data-aos="fade-up">
+            <div class="work cursor-scale small">
+                <img src="https://imageslink.netlify.app/pdfify.png" alt="Website">
+                <p class="p-white-32">Docs converter website - Pdfify</p>
+                <div class="tools">
+                    <img src="imgs/html.png" alt="HTML">
+                    <img src="imgs/css.png" alt="CSS">
+                    <img src="imgs/js.png" alt="JS">
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://sectionawebsites.netlify.app/" class="list-element item blogBox moreBox" target="_blank"
+            data-aos="fade-up">
+            <div class="work cursor-scale small">
+                <img src="https://imageslink.netlify.app/codemodulo.webp" alt="Website">
+                <p class="p-white-32">Code modulo</p>
+                <div class="tools">
+                    <img src="imgs/html.png" alt="HTML">
+                    <img src="imgs/css.png" alt="CSS">
+                    <img src="imgs/js.png" alt="JS">
+                </div>
+            </div>
+        </a>
+
+        <a href="https://sectionaa.netlify.app/" class="list-element item blogBox moreBox" target="_blank"
+            data-aos="fade-up">
+            <div class="work cursor-scale small">
+                <img src="https://imageslink.netlify.app/section-dating.webp" alt="Website">
+                <p class="p-white-32">Section A</p>
+                <div class="tools">
+                    <img src="imgs/figma.png" alt="Figma">
+                    <img src="imgs/html.png" alt="HTML">
+                    <img src="imgs/css.png" alt="CSS">
+                    <img src="imgs/js.png" alt="JS">
+                </div>
+            </div>
+        </a>
+
+        <a href="https://vaproduction.ge/" class="list-element item blogBox moreBox" target="_blank" data-aos="fade-up">
+            <div class="work cursor-scale small">
+                <img src="https://imageslink.netlify.app/vaproduction.webp" alt="Website">
+                <p class="p-white-32">VA Production</p>
+                <div class="tools">
+                    <img src="imgs/figma.png" alt="Figma">
+                    <img src="imgs/html.png" alt="HTML">
+                    <img src="imgs/css.png" alt="CSS">
+                    <img src="imgs/js.png" alt="JS">
+                </div>
+            </div>
+        </a>
+
+        <a href="https://moda-mademoiselle.com/" class="list-element item blogBox moreBox " data-aos="fade-up"
+            target="_blank">
+            <div class="work cursor-scale small">
+                <img src="https://imageslink.netlify.app/moda.webp" alt="Website">
+                <p class="p-white-32">Moda Mademoiselle</p>
+                <div class="tools ">
+                    <img src="imgs/figma.png" alt="Figma">
+                    <img src="imgs/shopify-icon.svg" alt="Shopify">
+
+                </div>
+            </div>
+        </a>
+
+
+
+        <a href="https://fluffybrother.com/" class="list-element item blogBox moreBox" target="_blank"
+            data-aos="fade-up">
+            <div class="work cursor-scale small">
+                <img src="https://imageslink.netlify.app/work-4.webp" alt="Website">
+                <p class="p-white-32">Fluffy Brother - NFT</p>
+                <div class="tools react">
+                    <img src="imgs/react-2.svg" alt="React">
+                    <p class="p-grey-18">React</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="http://complexrex.io/" class="list-element item blogBox moreBox" data-aos="fade-up" target="_blank">
+            <div class="work cursor-scale small">
+                <img src="https://imageslink.netlify.app/work-5.webp" alt="Website">
+                <p class="p-white-32">Complex-Rex - NFT</p>
+                <div class="tools react">
+                    <img src="imgs/react-2.svg" alt="React">
+                    <p class="p-grey-18">React</p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://gvabrands.com/" class="list-element item blogBox moreBox" data-aos="fade-up" target="_blank">
+            <div class="work cursor-scale small">
+                <img src="https://imageslink.netlify.app/shopify.webp" alt="Website">
+                <p class="p-white-32">GVAbrands - Shopify store</p>
+                <div class="tools shopify">
+                    <img src="imgs/shopify-icon.svg" alt="React">
+                    <p class="p-grey-18">Shopify</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://gazellion.co.uk/" class="list-element item blogBox moreBox" data-aos="fade-up" target="_blank">
+            <div class="work cursor-scale small">
+                <img src="https://imageslink.netlify.app/work-6.webp" alt="Website">
+                <p class="p-white-32">Gazzelion - NFT</p>
+                <div class="tools react">
+                    <img src="imgs/react-2.svg" alt="React">
+                    <p class="p-grey-18">React</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://pissedoff2.netlify.app/" class="list-element item blogBox moreBox" data-aos="fade-up"
+            target="_blank">
+            <div class="work cursor-scale small">
+                <div class="demo">
+                    <div class="demo-indicator">
+                        <p>Demo</p>
+                    </div>
+                    <img src="https://imageslink.netlify.app/work-7.webp" alt="Website">
+                </div>
+                <p class="p-white-32">PissedOff - NFT</p>
+                <div class="tools react">
+                    <img src="imgs/react-2.svg" alt="React">
+                    <p class="p-grey-18">React</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://oceanpets.netlify.app/" class="list-element item blogBox moreBox" data-aos="fade-up"
+            target="_blank">
+            <div class="work cursor-scale small">
+                <img src="https://imageslink.netlify.app/oceanpets.webp" alt="Website">
+                <p class="p-white-32">NFT project website - Oceanpets</p>
+                <div class="tools">
+                    <img src="imgs/html.png" alt="HTML">
+                    <img src="imgs/css.png" alt="CSS">
+                    <img src="imgs/js.png" alt="JS">
+                </div>
+            </div>
+        </a>
+
+        <a href="https://imedicaldemo.netlify.app/" data-aos="fade-up" class="list-element item blogBox moreBox"
+            target="_blank">
+            <div class="work cursor-scale small">
+                <div class="demo">
+                    <div class="demo-indicator">
+                        <p>Demo</p>
+                    </div>
+                    <img src="https://imageslink.netlify.app/imedical.webp" alt="Website">
+                </div>
+                <p class="p-white-32">Medical help website - iMedical</p>
+                <div class="tools">
+                    <img src="imgs/html.png" alt="HTML">
+                    <img src="imgs/css.png" alt="CSS">
+                    <img src="imgs/js.png" alt="JS">
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://joyful-boba-418053.netlify.app/" data-aos="fade-up" class="list-element item blogBox moreBox"
+            target="_blank">
+            <div class="work cursor-scale small">
+                <div class="demo">
+
+                    <div class="demo-indicator">
+                        <p>Demo</p>
+                    </div>
+                    <img src="https://imageslink.netlify.app/sevenstocks.webp" alt="Website">
+                </div>
+                <p class="p-white-32">Holding website - Sevenstock</p>
+                <div class="tools">
+                    <img src="imgs/html.png" alt="HTML">
+                    <img src="imgs/css.png" alt="CSS">
+                    <img src="imgs/js.png" alt="JS">
+                </div>
+            </div>
+        </a>
+
+        <a href="https://relaxed-kelpie-185bdb.netlify.app/" data-aos="fade-up"
+            class="list-element item blogBox moreBox" target="_blank">
+            <div class="work cursor-scale small">
+                <div class="demo">
+                    <div class="demo-indicator">
+                        <p>Demo</p>
+                    </div>
+                    <img src="imgs/hails.webp" alt="Website">
+                </div>
+                <p class="p-white-32">NFT project website - Hails</p>
+                <div class="tools">
+                    <img src="imgs/html.png" alt="HTML">
+                    <img src="imgs/css.png" alt="CSS">
+                    <img src="imgs/js.png" alt="JS">
+                </div>
+            </div>
+        </a>
+    </div>
+
+
+
+    <button class="load-more-btn cursor-scale small" data-aos="zoom-in" id="loadMore">
+        <div class="button-box">
+            <span class="button-elem">
+                <svg viewBox="0 0 46 40" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z">
+                    </path>
+                </svg>
+            </span>
+            <span class="button-elem">
+                <svg viewBox="0 0 46 40">
+                    <path
+                        d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z">
+                    </path>
+                </svg>
+            </span>
+        </div>
+    </button>
+
+    <!------------------- dribbble posts  ------------------->
+    <div class="work-divider">
+        <p class="p-grey-18">2021 dribbble</p>
+    </div>
+
+    <div class="center">
+        <div>
+            <img src="https://cdn.dribbble.com/userupload/39646611/file/original-924e604cee2cf2d404ff433bf9016cbf.png?resize=1504x1128&vertical=center"
+                alt="Dribbble">
+        </div>
+
+        <div>
+            <img src="https://cdn.dribbble.com/userupload/39623950/file/original-e321524da1edace2805cfcfb940c3baa.png?resize=1504x1128&vertical=center"
+                alt="Dribbble">
+        </div>
+        <div>
+            <img src="https://cdn.dribbble.com/userupload/39528049/file/original-c3fd4cfebfdc77fa730e36f9e46f7b88.png?resize=1504x1128&vertical=center"
+                alt="Dribbble">
+        </div>
+        <div>
+            <img src="https://cdn.dribbble.com/userupload/39511573/file/original-871b03a3269fdccadae6d006731c3c3d.png?resize=1504x1128&vertical=center"
+                alt="Dribbble">
+        </div>
+        <div>
+            <img src="https://cdn.dribbble.com/userupload/39494318/file/original-db6be39d5ba4c4a1365bbdac4fd28bb9.png?resize=1504x1128&vertical=center"
+                alt="Dribbble">
+        </div>
+        <div>
+            <img src="https://cdn.dribbble.com/userupload/39478584/file/original-cc836befeb216fde7363e29f564c65d9.png?resize=1504x1155&vertical=center"
+                alt="Dribbble">
+        </div>
+        <div>
+            <img src="https://cdn.dribbble.com/userupload/39418140/file/original-f2ba50e7a9a950f0724bb6f2407762b0.png?resize=1504x1128&vertical=center"
+                alt="Dribbble">
+        </div>
+        <div>
+            <img src="https://cdn.dribbble.com/userupload/39402453/file/original-4233fb6d1c093d5d515b2f6022369767.png?resize=1504x1128&vertical=center"
+                alt="Dribbble">
+        </div>
+        <div>
+            <img src="https://cdn.dribbble.com/userupload/39299754/file/original-5e3ccb2477b4eb7b1a8852fc532f3278.png?resize=1504x1128&vertical=center"
+                alt="Dribbble">
+        </div>
+        <div>
+            <img src="https://cdn.dribbble.com/userupload/39278901/file/original-179b5ba3d36579cbd74ca6b9aae6592d.png?resize=1504x1128&vertical=center"
+                alt="Dribbble">
+        </div>
+        <div>
+            <img src="https://cdn.dribbble.com/userupload/39386886/file/original-cba91ae97bca4a49a23ae22c4aee3741.png?resize=1504x1128&vertical=center"
+                alt="Dribbble">
+        </div>
+    </div>
+
+    <!--------------------------------- team section ------------------------------>
+    <div class="team-container" data-aos="fade-up">
+        <div class="team-title">
+            <h5 data-aos="fade-right">OUR TEAM</h5>
+            <p class="italic-18" data-aos="fade-left">Thanks to <a href="https://www.midjourney.com/home/"
+                    class="cursor-scale small" target="_blank">Midjurney AI</a>
+                for providing pictures</p>
+            <a href="https://www.buymeacoffee.com/paralleltoday" class="cursor-scale small " target="_blank"><img
+                    src="https://img.buymeacoffee.com/button-api/?text=Buy us a coffee&emoji=&slug=paralleltoday&button_colour=0066FF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"
+                    alt="By me a coffee" /></a>
+        </div>
+
+        <div class="team-members">
+
+            <div class="team-member">
+                <img src="https://imageslink.netlify.app/members/me.png" class="memeber-img" alt="Member"
+                    data-aos="zoom-in-up">
+                <div class="member-info">
+                    <p class="member-name">Giorgi Vakhtangishvili</p>
+                    <p class="position">Front End Developer</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="https://imageslink.netlify.app/members/me.png" class="memeber-img" alt="Member"
+                    data-aos="zoom-in-up">
+                <div class="member-info">
+                    <p class="member-name">Giorgi Vakhtangishvili</p>
+                    <p class="position"> Lecturer at IT academy STEP </p>
+                </div>
+            </div>
+            <!-- <div class="team-member">
+                <img src="imgs/members/givi.png" class="memeber-img" alt="Member" data-aos="zoom-in-up">
+                <div class="member-info">
+                    <p class="member-name">Givi Vakhtangishvili</p>
+                    <p class="position">UI/UX</p>
+                </div>
+            </div> -->
+
+            <!-- <div class="team-member">
+                <img src="imgs/members/givi.png" class="memeber-img" alt="Member" data-aos="zoom-in-up">
+                <div class="member-info">
+                    <p class="member-name">Givi Vakhtangishvili</p>
+                    <p class="position">Marketing</p>
+                </div>
+            </div> -->
+            <!-- <div class="team-member">
+                <img src="imgs/members/givi.png" class="memeber-img" alt="Member" data-aos="zoom-in-up">
+                <div class="member-info">
+                    <p class="member-name">Givi Vakhtangishvili</p>
+                    <p class="position">UI/UX Designer</p>
+                </div>
+            </div> -->
+
+            <!-- <div class="team-member">
+                <img src="imgs/members/member (23).png" class="memeber-img" alt="Member" data-aos="zoom-in-up">
+                <div class="member-info">
+                    <p class="member-name">Beka Gavita</p>
+                    <p class="position">UI/UX</p>
+                </div>
+            </div> -->
+            <!-- <div class="team-member">
+                <img src="imgs/members/member (8).png" class="memeber-img" alt="Member" data-aos="zoom-in-up">
+                <div class="member-info">
+                    <p class="member-name">Tina Meskhi</p>
+                    <p class="position">Graphic Designer</p>
+                </div>
+            </div> -->
+            <!-- <div class="team-member">
+                <img src="imgs/members/member (9).png" class="memeber-img" alt="Member" data-aos="zoom-in-up">
+                <div class="member-info">
+                    <p class="member-name">Nini Lomaia</p>
+                    <p class="position">UI/UX</p>
+                </div>
+            </div> -->
+
+            <!-- <div class="team-member">
+                <img src="imgs/members/member (18).png" class="memeber-img" alt="Member">
+                <div class="member-info">
+                    <p class="member-name">Davit Ubton</p>
+                    <p class="position">SEO, Back End</p>
+                </div>
+            </div> -->
+            <!-- <div class="team-member">
+                <img src="imgs/members/member (1).png" class="memeber-img" alt="Member" data-aos="zoom-in-up">
+                <div class="member-info">
+                    <p class="member-name">Nutsa Dumbadze</p>
+                    <p class="position">Front end developer</p>
+                </div>
+            </div> -->
+            <!-- <div class="team-member">
+                <img src="imgs/members/member (3).png" class="memeber-img" alt="Member" data-aos="zoom-in-up">
+                <div class="member-info">
+                    <p class="member-name">Nika Vakhtangishvili</p>
+                    <p class="position">React, UI/UX</p>
+                </div>
+            </div> -->
+            <!-- <div class="team-member">
+                <img src="imgs/members/member (25).png" class="memeber-img" alt="Member" data-aos="zoom-in-up">
+                <div class="member-info">
+                    <p class="member-name">Anna Smith</p>
+                    <p class="position">Tester</p>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <!----------------------- parallel games ----------------------->
+    <div class="games-section">
+        <h3 data-aos="fade-up">My Games</h3>
+
+        <div class="games-container" data-aos="fade-up">
+            <a href="https://memorygameparallel.netlify.app/" class="cursor-scale " target="_blank">
+                <div class="game game-1">
+
+                </div>
+            </a>
+
+            <a href="https://parallelhunter.netlify.app/" class="cursor-scale" target="_blank">
+                <div class="game game-2">
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="faq-section">
+
+        <h3 data-aos="fade-up">FAQ</h3>
+
+        <div class="faq-container">
+
+            <div class="accordion cursor-scale small" data-aos="flip-up">
+                <div class="dropdown">
+                    <p class="white-24-d">Who i'm?</p>
+                    <img src="imgs/arrow-down.svg" class="drop-btn" alt="Arrow">
+                </div>
+                <div class="panel">
+                    <p class="p-grey-18">
+                        I am a dedicated developer with a passion for creating user-friendly web applications and
+                        continuously exploring new technologies. As an endless learner, I strive to innovate and share
+                        my knowledge within the tech community.
+                    </p>
+                </div>
+            </div>
+            <div class="accordion cursor-scale small" data-aos="flip-up">
+                <div class="dropdown">
+                    <p class="white-24-d">
+                        Why me?
+                    </p>
+                    <img src="imgs/arrow-down.svg" class="drop-btn" alt="Arrow">
+                </div>
+                <div class="panel">
+                    <p class="p-grey-18">
+                        I'm the best choice because I have extensive knowledge and I'm always learning. As a front-end
+                        developer and programming lecturer, I stay updated with the latest technologies and best
+                        practices to ensure top-quality results for your project. ✨
+                    </p>
+                </div>
+            </div>
+            <!-- <div class="accordion cursor-scale small" data-aos="flip-up">
+                <div class="dropdown">
+                    <p class="white-24-d">What services does Parallel provide?</p>
+                    <img src="imgs/arrow-down.svg" class="drop-btn" alt="Arrow">
+                </div>
+                <div class="panel">
+                    <p class="p-grey-18">
+                        &#9679 Web Design<br><br>
+                        &#9679 Web Development<br><br>
+                        &#9679 Branding
+                    </p>
+                </div>
+            </div>
+  -->
+        </div>
+
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div>
+                <a href="mailto:g.vakhtangishvili@itstep.ge" id="send-mail-to" class="cursor-scale small">
+                    <img src="imgs/mail.svg" alt="Mail">
+                    g.vakhtangishvili@itstep.ge
+                </a>
+                <h3>
+                    Let’s create something <br> special together.
+                </h3>
+                <p class="p-white-24">
+                    Drop me a line, and I’ll get in touch.
+                </p>
+            </div>
+            <div>
+                <form action="https://formsubmit.co/vakhtangishviligi@gmail.com" method="post">
+                    <span> <input type="text" name="first_name" placeholder="Name">
+
+                        <input type="text" name="email" placeholder="Email"></span>
+                    <textarea rows="5" name="message" cols="30" placeholder="What's your project about?"></textarea>
+
+                    <div class="budget-container">
+                        <h4>Est.budget</h4>
+
+                        <div class="options">
+
+                            <input type="radio" name="budget" id="500-1" value="$500  - $1000" required />
+                            <label for="500-1" class="cursor-scale small"><span>$200 - $1k</span></label>
+
+                            <input type="radio" name="budget" id="1-5" value="$1k - $5k" required />
+                            <label for="1-5" class="cursor-scale small"><span class="green">$1k - $5k</span></label>
+
+                            <input type="radio" name="budget" id="5+" value="$5k+" required />
+                            <label for="5+" class="cursor-scale small"><span>$5k+</span></label>
+                        </div>
+                        <input type="hidden" name="_next" value="https://parallel.today/thanks.html">
+
+                        <input type="hidden" name="_captcha" value="false">
+                        <!-- <input type="text" name="_honey" style="display:none"> -->
+
+
+                    </div>
+                    <input type="submit" name="submit" value="Submit" id="submit" onclick="makeGreen()"
+                        onsubmit="return false" class="cursor-scale small">
+
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <nav>
+                <a href="https://www.linkedin.com/in/givi-vakhtangishvili-85a999213/" target="_blank"
+                    class="cursor-scale small">Linkedin</a>
+                <a href="https://dribbble.com/Parallel_Today" target="_blank" class="cursor-scale small">Dribbble</a>
+            </nav>
+            <p>&copy all rights reserved</p>
+        </div>
+    </footer>
+
+
+    <script>
+        if (window.AOS) {
+            AOS.init();
+        }
+    </script>
+
+    <script>
+        const overlay = document.getElementById("overlay");
+        if (overlay) {
+            // Hide the splash overlay after the intro animation.
+            window.setTimeout(() => {
+                overlay.style.display = "none";
+            }, 5000);
+        }
+    </script>
+
+    <script>
+        const submitButton = document.getElementById("submit");
+        function makeGreen() {
+            if (!submitButton) {
+                return;
+            }
+            // Simple visual feedback while the form is being sent.
+            submitButton.style.animationName = "makeGreen";
+            submitButton.value = "Sending...";
+            window.setTimeout(() => {
+                submitButton.value = "Sent";
+            }, 2000);
+            window.setTimeout(() => {
+                submitButton.style.animationName = "none";
+                submitButton.value = "Submit";
+            }, 4000);
+        }
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            const setupLoadMore = (itemsSelector, buttonSelector, batchSize) => {
+                const $items = $(itemsSelector);
+                const $button = $(buttonSelector);
+
+                $items.slice(0, batchSize).show();
+                if ($(itemsSelector + ":hidden").length) {
+                    $button.show();
+                }
+
+                $button.on("click", function (e) {
+                    e.preventDefault();
+                    $(itemsSelector + ":hidden").slice(0, batchSize).slideDown();
+
+                    if ($(itemsSelector + ":hidden").length === 0) {
+                        $button.css("opacity", "0").attr("aria-hidden", "true");
+                    }
+                });
+            };
+
+            // Keep the "load more" logic reusable and avoid duplicate selectors.
+            setupLoadMore(".moreBox", "#loadMore", 2);
+            setupLoadMore(".moreBox_student", "#loadMore_students", 2);
+        });
+    </script>
+    <!---------------- to top button ----------------------->
+    <script src="totopbtn.js"></script>
+
+
+    <script>
+        function toggleTheme() {
+            document.body.classList.toggle("light-mode");
+        }
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+
+    <script src="cursor.js"></script>
+
+
+    <script>
+        const accordions = document.querySelectorAll(".accordion");
+        accordions.forEach((item) => {
+            const trigger = item.querySelector(".dropdown");
+            const panel = trigger ? trigger.nextElementSibling : null;
+
+            if (!trigger || !panel) {
+                return;
+            }
+
+            // Add basic keyboard support for accessibility.
+            trigger.setAttribute("role", "button");
+            trigger.setAttribute("tabindex", "0");
+            trigger.setAttribute("aria-expanded", "false");
+
+            const toggleAccordion = () => {
+                const isOpen = Boolean(panel.style.maxHeight);
+                trigger.classList.toggle("active");
+                panel.style.maxHeight = isOpen ? null : panel.scrollHeight + "px";
+                item.style.paddingBottom = isOpen ? "0" : "32px";
+                trigger.setAttribute("aria-expanded", String(!isOpen));
+            };
+
+            item.addEventListener("click", toggleAccordion);
+            trigger.addEventListener("keydown", (event) => {
+                if (event.key === "Enter" || event.key === " ") {
+                    event.preventDefault();
+                    toggleAccordion();
+                }
+            });
+        });
+    </script>
+
+
+    <script>
+        $('.center').slick({
+            centerMode: true,
+            centerPadding: '60px',
+            slidesToShow: 3,
+            autoplay: true,
+            autoplaySpeed: 2500,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    </script>
+
+</body>
+
+</html>
